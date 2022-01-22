@@ -1,7 +1,0 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Josh\Documents\GGC_2022_Duality).
-  Creating makefile for ForceDupeEditor (no existing makefile)
-  Parsing headers for ForceDupeEditor
-    Running UnrealHeaderTool "D:\Josh\Documents\GGC_2022_Duality\ForceDupe\ForceDupe.uproject" "D:\Josh\Documents\GGC_2022_Duality\ForceDupe\Intermediate\Build\Win64\ForceDupeEditor\Development\ForceDupeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Josh\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  LogInit: Display: Loading text-based GConfig....
-D:/Josh/Documents/GGC_2022_Duality/ForceDupe/Source/ForceDupe/Tetherable.h(8): error : Unrecognized compiler directive incldue
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: The command "D:\UE_4.27\Engine\Build\BatchFiles\Build.bat ForceDupeEditor Win64 Development -Project="D:\Josh\Documents\GGC_2022_Duality\ForceDupe\ForceDupe.uproject" -WaitMutex -FromMsBuild" exited with code 6.
