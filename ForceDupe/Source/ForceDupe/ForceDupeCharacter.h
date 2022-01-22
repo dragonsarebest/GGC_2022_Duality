@@ -45,6 +45,9 @@ class AForceDupeCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class UMotionControllerComponent* L_MotionController;
 
+	UPROPERTY(EditAnywhere)
+	class ATetherable* TeatheredObject;
+
 public:
 	AForceDupeCharacter();
 
@@ -138,5 +141,10 @@ public:
 	/** Returns FirstPersonCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Tether")
+	void PullTetherToPlayer();
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Tether")
+	void PullPlayerToTether();
 };
 

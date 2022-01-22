@@ -23,9 +23,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UStaticMeshComponent* My_Mesh;
-	USkeletalMeshComponent* My_SkeletalMesh;
-
+	UPROPERTY(EditAnywhere)
+	class UStaticMeshComponent* My_Mesh;
+	
 	UPROPERTY(EditAnywhere)
 	bool usingStaticMesh = false;
 };
