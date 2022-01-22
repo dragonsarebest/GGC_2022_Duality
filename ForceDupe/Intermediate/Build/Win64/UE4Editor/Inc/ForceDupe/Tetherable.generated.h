@@ -39,7 +39,7 @@ public: \
 	NO_API ATetherable(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATetherable) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ATetherable); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATetherable); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATetherable); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATetherable(ATetherable&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API ATetherable(const ATetherable&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ATetherable); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATetherable); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATetherable); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATetherable)
 
 

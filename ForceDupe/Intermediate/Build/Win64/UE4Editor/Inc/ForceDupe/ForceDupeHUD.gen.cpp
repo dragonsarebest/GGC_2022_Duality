@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeForceDupeHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AForceDupeHUD, 1053359676);
+	IMPLEMENT_CLASS(AForceDupeHUD, 2954988526);
 	template<> FORCEDUPE_API UClass* StaticClass<AForceDupeHUD>()
 	{
 		return AForceDupeHUD::StaticClass();

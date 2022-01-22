@@ -39,7 +39,7 @@ public: \
 	NO_API AForceDupeHUD(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AForceDupeHUD) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AForceDupeHUD); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AForceDupeHUD); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AForceDupeHUD); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AForceDupeHUD(AForceDupeHUD&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API AForceDupeHUD(const AForceDupeHUD&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AForceDupeHUD); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AForceDupeHUD); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AForceDupeHUD); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AForceDupeHUD)
 
 

@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeForceDupeGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AForceDupeGameMode, 3633750152);
+	IMPLEMENT_CLASS(AForceDupeGameMode, 2211944042);
 	template<> FORCEDUPE_API UClass* StaticClass<AForceDupeGameMode>()
 	{
 		return AForceDupeGameMode::StaticClass();

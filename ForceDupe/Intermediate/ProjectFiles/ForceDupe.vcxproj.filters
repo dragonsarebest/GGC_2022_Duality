@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\ForceDupe.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6A4A7854-DD80-4B04-9E59-D05569E85465}</UniqueIdentifier>
+      <UniqueIdentifier>{1E8305BA-ECDE-4C22-85F9-F85D8A4F133C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ForceDupe.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{27233F83-264A-454C-BE5F-0E86AE7D6DDE}</UniqueIdentifier>
+      <UniqueIdentifier>{975265AD-B670-4FF1-886F-C33C98305231}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ForceDupe">
-      <UniqueIdentifier>{247FD97B-69EE-443A-83F9-A6424F7F5416}</UniqueIdentifier>
+      <UniqueIdentifier>{62FF5C83-C166-4A33-920B-10651FABAD85}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ForceDupe\ForceDupe.Build.cs">
       <Filter>Source\ForceDupe</Filter>

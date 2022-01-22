@@ -91,7 +91,7 @@ void EmptyLinkFunctionForGeneratedCodeTetherable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATetherable, 2389940658);
+	IMPLEMENT_CLASS(ATetherable, 4281146083);
 	template<> FORCEDUPE_API UClass* StaticClass<ATetherable>()
 	{
 		return ATetherable::StaticClass();

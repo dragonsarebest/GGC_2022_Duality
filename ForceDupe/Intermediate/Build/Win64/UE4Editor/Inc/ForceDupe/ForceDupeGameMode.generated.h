@@ -39,7 +39,7 @@ public: \
 	FORCEDUPE_API AForceDupeGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AForceDupeGameMode) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(FORCEDUPE_API, AForceDupeGameMode); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AForceDupeGameMode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AForceDupeGameMode); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	FORCEDUPE_API AForceDupeGameMode(AForceDupeGameMode&&); \
@@ -54,7 +54,7 @@ private: \
 	FORCEDUPE_API AForceDupeGameMode(const AForceDupeGameMode&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(FORCEDUPE_API, AForceDupeGameMode); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AForceDupeGameMode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AForceDupeGameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AForceDupeGameMode)
 
 

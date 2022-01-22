@@ -55,7 +55,7 @@ public: \
 	NO_API AForceDupeProjectile(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AForceDupeProjectile) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AForceDupeProjectile); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AForceDupeProjectile); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AForceDupeProjectile); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AForceDupeProjectile(AForceDupeProjectile&&); \
@@ -70,7 +70,7 @@ private: \
 	NO_API AForceDupeProjectile(const AForceDupeProjectile&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AForceDupeProjectile); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AForceDupeProjectile); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AForceDupeProjectile); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AForceDupeProjectile)
 
 

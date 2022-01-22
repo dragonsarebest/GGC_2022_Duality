@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeForceDupe_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x6FA4FAD7,
+				0x3E32D051,
 				0xEE1754A6,
 				METADATA_PARAMS(nullptr, 0)
 			};
