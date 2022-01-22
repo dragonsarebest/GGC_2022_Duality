@@ -71,11 +71,5 @@
     <ClInclude Include="..\..\Source\ForceDupe\Tetherable.h">
       <Filter>Source\ForceDupe</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\ForceDupe\TetherAttachable.cpp">
-      <Filter>Source\ForceDupe</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ForceDupe\TetherAttachable.h">
-      <Filter>Source\ForceDupe</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
