@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ForceDupe.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{6A4A7854-DD80-4B04-9E59-D05569E85465}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ForceDupe.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ForceDupeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{27233F83-264A-454C-BE5F-0E86AE7D6DDE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ForceDupe">
+      <UniqueIdentifier>{247FD97B-69EE-443A-83F9-A6424F7F5416}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ForceDupe\ForceDupe.Build.cs">
+      <Filter>Source\ForceDupe</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ForceDupe\ForceDupe.cpp">
+      <Filter>Source\ForceDupe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ForceDupe\ForceDupe.h">
+      <Filter>Source\ForceDupe</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ForceDupe\ForceDupeCharacter.cpp">
+      <Filter>Source\ForceDupe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ForceDupe\ForceDupeCharacter.h">
+      <Filter>Source\ForceDupe</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ForceDupe\ForceDupeGameMode.cpp">
+      <Filter>Source\ForceDupe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ForceDupe\ForceDupeGameMode.h">
+      <Filter>Source\ForceDupe</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ForceDupe\ForceDupeHUD.cpp">
+      <Filter>Source\ForceDupe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ForceDupe\ForceDupeHUD.h">
+      <Filter>Source\ForceDupe</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ForceDupe\ForceDupeProjectile.cpp">
+      <Filter>Source\ForceDupe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ForceDupe\ForceDupeProjectile.h">
+      <Filter>Source\ForceDupe</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ForceDupe\Tetherable.cpp">
+      <Filter>Source\ForceDupe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ForceDupe\Tetherable.h">
+      <Filter>Source\ForceDupe</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ForceDupe\TetherAttachable.cpp">
+      <Filter>Source\ForceDupe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ForceDupe\TetherAttachable.h">
+      <Filter>Source\ForceDupe</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
