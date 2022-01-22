@@ -1030,3 +1030,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.01.22-19.52.13:943][ 17]LogSavePackage: Moving '../../../../Josh/Documents/GGC_2022_Duality/ForceDupe/Saved/FirstPersonCharacter4B09AF66451484604BC744A8519CE78C.tmp' to '../../../../Josh/Documents/GGC_2022_Duality/ForceDupe/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
 [2022.01.22-19.52.13:996][ 17]AssetCheck: New page: Asset Save: FirstPersonCharacter
 [2022.01.22-19.52.13:996][ 17]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.01.22-19.52.39:361][159]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2022.01.22-19.52.39:412][159]LogSavePackage: Moving '../../../../Josh/Documents/GGC_2022_Duality/ForceDupe/Saved/FirstPersonExampleMap_Auto15DAAC1944589522E122DAEA6D49DB370.tmp' to '../../../../Josh/Documents/GGC_2022_Duality/ForceDupe/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2022.01.22-19.52.39:435][159]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.102
+[2022.01.22-19.52.39:435][159]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.102
