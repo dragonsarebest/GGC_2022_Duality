@@ -899,3 +899,134 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.01.22-19.15.58:347][872]LogSlate: Window 'Project Settings' being destroyed
 [2022.01.22-19.15.58:351][872]LogSlate: Window 'Project Settings' being destroyed
 [2022.01.22-19.15.58:930][922]LogSlate: Took 0.015022 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.01.22-19.16.56:721][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube8)
+[2022.01.22-19.18.33:786][562]Cmd: SELECT NONE
+[2022.01.22-19.18.43:374][689]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.01.22-19.18.43:395][689]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.01.22-19.18.44:045][689]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 126 classes and 0 folders.
+[2022.01.22-19.18.48:395][949]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2022.01.22-19.18.48:409][949]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.01.22-19.18.48:409][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-19.18.48:492][949]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.01.22-19.18.49:082][949]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.01.22-19.40.55:712][540]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2022.01.22-19.40.55:716][540]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2022.01.22-19.40.55:719][540]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.01.22-19.40.55:719][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-19.40.57:143][698]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.01.22-19.43.12:142][981]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2022.01.22-19.43.12:146][981]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2022.01.22-19.43.12:148][981]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.01.22-19.43.12:148][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-19.44.48:462][849]LogHotReload: New module detected: UE4Editor-ForceDupe-0001.dll
+[2022.01.22-19.47.02:476][644]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.01.22-19.48.17:003][757]LogHotReload: New module detected: UE4Editor-ForceDupe-0002.dll
+[2022.01.22-19.48.17:707][760]LogHotReload: Starting Hot-Reload from IDE
+[2022.01.22-19.48.17:755][760]LogClass: Could not find existing class ForceDupeCharacter in package /Script/ForceDupe for HotReload, assuming new class
+[2022.01.22-19.48.17:755][760]LogClass: Function PullPlayerToTether is new.
+[2022.01.22-19.48.17:755][760]LogClass: Function PullTetherToPlayer is new.
+[2022.01.22-19.48.17:761][760]LogClass: Could not find existing class Tetherable in package /Script/ForceDupe for HotReload, assuming new class
+[2022.01.22-19.48.17:772][760]LogHotReload: Re-instancing ForceDupeCharacter after hot-reload.
+[2022.01.22-19.48.17:882][760]LogHotReload: Re-instancing Tetherable after hot-reload.
+[2022.01.22-19.48.17:900][760]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ForceDupe' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2022.01.22-19.48.17:912][760]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.01.22-19.48.18:291][760]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0112 seconds. Added 3827 classes and 930 folders.
+[2022.01.22-19.48.18:412][760]Display: HotReload took  0.7s.
+[2022.01.22-19.49.15:865][ 36]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2022.01.22-19.49.15:870][ 36]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2022.01.22-19.49.15:876][ 36]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.01.22-19.49.15:876][ 36]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-19.49.26:296][848]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.01.22-19.49.32:909][ 81]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2022.01.22-19.49.32:914][ 81]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2022.01.22-19.49.32:918][ 81]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.01.22-19.49.32:918][ 81]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-19.49.37:431][524]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.22-19.49.54:660][532]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/PlayerCharacter.PlayerCharacter
+[2022.01.22-19.49.55:192][532]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2022.01.22-19.49.55:301][532]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2022.01.22-19.49.59:126][769]LogSlate: Window 'PlayerCharacter' being destroyed
+[2022.01.22-19.49.59:133][769]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.01.22-19.49.59:133][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-19.50.04:062][191]LogUObjectHash: Compacting FUObjectHashTables data took   5.60ms
+[2022.01.22-19.50.05:036][191]LogSlate: Window 'Delete Assets' being destroyed
+[2022.01.22-19.50.05:191][191]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2022.01.22-19.50.07:380][382]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.01.22-19.50.18:822][403]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter
+[2022.01.22-19.50.18:876][403]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.01.22-19.50.18:899][403]LogUObjectGlobals: Display: ReloadPackage failed to find a replacement object for 'Default__FirstPersonCharacter_C:CollisionCylinder.BodySetup_0' (transient) in the new package '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter'. Any existing references to this object will be nulled out.
+[2022.01.22-19.50.18:901][403]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2022.01.22-19.50.18:909][403]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_21) Not registered. Aborting.
+[2022.01.22-19.50.18:910][403]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_11) Not registered. Aborting.
+[2022.01.22-19.50.18:910][403]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_53) Not registered. Aborting.
+[2022.01.22-19.50.18:910][403]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.01.22-19.50.18:910][403]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.01.22-19.50.18:910][403]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-19.50.19:005][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.01.22-19.50.19:264][403]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2022.01.22-19.50.19:265][403]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.01.22-19.50.19:716][403]LogUObjectGlobals: Warning: ReloadPackage failed to purge the old package '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter_DEADPACKAGE_1'. This is unexpected, and likely means that it was still externally referenced.
+[2022.01.22-19.50.19:955][403]LogUObjectGlobals: Display: ReloadPackage external references for '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter_DEADPACKAGE_1'.
+[2022.01.22-19.50.19:955][403]LogUObjectGlobals: Display:     BlueprintGeneratedClass /Engine/Transient.REINST_FirstPersonCharacter_C_22
+[2022.01.22-19.50.19:955][403]LogUObjectGlobals: Display:     Level /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     BlueprintGeneratedClass /Engine/Transient.REINST_FirstPersonCharacter_C_22
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     Level /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     SCS_Node /Engine/Transient.REINST_FirstPersonCharacter_C_22:SimpleConstructionScript_1.SCS_Node_1
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     SimpleConstructionScript /Engine/Transient.REINST_FirstPersonCharacter_C_22:SimpleConstructionScript_1
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     BlueprintGeneratedClass /Engine/Transient.REINST_FirstPersonCharacter_C_22
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     Level /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     BlueprintGeneratedClass /Engine/Transient.REINST_FirstPersonCharacter_C_22
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     Level /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     AbstractNavData /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AbstractNavData-Default
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     NavigationSystemV1 /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:NavigationSystemV1_0
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     CrowdManager /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:NavigationSystemV1_0.CrowdManager_0
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     SCS_Node /Engine/Transient.REINST_FirstPersonCharacter_C_22:SimpleConstructionScript_1.SCS_Node_1
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     SimpleConstructionScript /Engine/Transient.REINST_FirstPersonCharacter_C_22:SimpleConstructionScript_1
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     BlueprintGeneratedClass /Engine/Transient.REINST_FirstPersonCharacter_C_22
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     Level /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     BlueprintGeneratedClass /Engine/Transient.REINST_FirstPersonCharacter_C_22
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     Level /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     AbstractNavData /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AbstractNavData-Default
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     NavigationSystemV1 /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:NavigationSystemV1_0
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     CrowdManager /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:NavigationSystemV1_0.CrowdManager_0
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     SCS_Node /Engine/Transient.REINST_FirstPersonCharacter_C_22:SimpleConstructionScript_1.SCS_Node_1
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     SimpleConstructionScript /Engine/Transient.REINST_FirstPersonCharacter_C_22:SimpleConstructionScript_1
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     BlueprintGeneratedClass /Engine/Transient.REINST_FirstPersonCharacter_C_22
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     Level /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     SCS_Node /Engine/Transient.REINST_FirstPersonCharacter_C_22:SimpleConstructionScript_1.SCS_Node_1
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     SimpleConstructionScript /Engine/Transient.REINST_FirstPersonCharacter_C_22:SimpleConstructionScript_1
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     BlueprintGeneratedClass /Engine/Transient.REINST_FirstPersonCharacter_C_22
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     Level /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     AbstractNavData /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AbstractNavData-Default
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     NavigationSystemV1 /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:NavigationSystemV1_0
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     CrowdManager /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:NavigationSystemV1_0.CrowdManager_0
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     SCS_Node /Engine/Transient.REINST_FirstPersonCharacter_C_22:SimpleConstructionScript_1.SCS_Node_1
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     SimpleConstructionScript /Engine/Transient.REINST_FirstPersonCharacter_C_22:SimpleConstructionScript_1
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     BlueprintGeneratedClass /Engine/Transient.REINST_FirstPersonCharacter_C_22
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     Level /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     AbstractNavData /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AbstractNavData-Default
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     NavigationSystemV1 /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:NavigationSystemV1_0
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     CrowdManager /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:NavigationSystemV1_0.CrowdManager_0
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     SCS_Node /Engine/Transient.REINST_FirstPersonCharacter_C_22:SimpleConstructionScript_1.SCS_Node_1
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     SimpleConstructionScript /Engine/Transient.REINST_FirstPersonCharacter_C_22:SimpleConstructionScript_1
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     BlueprintGeneratedClass /Engine/Transient.REINST_FirstPersonCharacter_C_22
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     Level /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     AbstractNavData /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AbstractNavData-Default
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     NavigationSystemV1 /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:NavigationSystemV1_0
+[2022.01.22-19.50.19:956][403]LogUObjectGlobals: Display:     CrowdManager /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:NavigationSystemV1_0.CrowdManager_0
+[2022.01.22-19.50.22:772][554]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2022.01.22-19.50.22:784][554]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.01.22-19.50.22:784][554]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-19.50.22:861][554]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.01.22-19.52.12:961][958]BlueprintLog: New page: Compile FirstPersonCharacter
+[2022.01.22-19.52.13:024][958]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2022.01.22-19.52.13:135][958]LogSlate: Took 0.059706 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.01.22-19.52.13:943][ 17]LogSavePackage: Moving '../../../../Josh/Documents/GGC_2022_Duality/ForceDupe/Saved/FirstPersonCharacter4B09AF66451484604BC744A8519CE78C.tmp' to '../../../../Josh/Documents/GGC_2022_Duality/ForceDupe/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2022.01.22-19.52.13:996][ 17]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2022.01.22-19.52.13:996][ 17]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter

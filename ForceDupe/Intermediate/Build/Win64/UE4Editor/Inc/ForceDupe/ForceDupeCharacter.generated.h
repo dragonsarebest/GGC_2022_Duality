@@ -13,10 +13,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FORCEDUPE_ForceDupeCharacter_generated_h
 
-#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_SPARSE_DATA
-#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_RPC_WRAPPERS
-#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_INCLASS_NO_PURE_DECLS \
+#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_SPARSE_DATA
+#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execPullPlayerToTether); \
+	DECLARE_FUNCTION(execPullTetherToPlayer);
+
+
+#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execPullPlayerToTether); \
+	DECLARE_FUNCTION(execPullTetherToPlayer);
+
+
+#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAForceDupeCharacter(); \
 	friend struct Z_Construct_UClass_AForceDupeCharacter_Statics; \
@@ -25,7 +35,7 @@ public: \
 	DECLARE_SERIALIZER(AForceDupeCharacter)
 
 
-#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_INCLASS \
+#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAForceDupeCharacter(); \
 	friend struct Z_Construct_UClass_AForceDupeCharacter_Statics; \
@@ -34,7 +44,7 @@ public: \
 	DECLARE_SERIALIZER(AForceDupeCharacter)
 
 
-#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_STANDARD_CONSTRUCTORS \
+#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AForceDupeCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AForceDupeCharacter) \
@@ -47,7 +57,7 @@ private: \
 public:
 
 
-#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_ENHANCED_CONSTRUCTORS \
+#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AForceDupeCharacter(AForceDupeCharacter&&); \
@@ -58,7 +68,7 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AForceDupeCharacter)
 
 
-#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Mesh1P() { return STRUCT_OFFSET(AForceDupeCharacter, Mesh1P); } \
 	FORCEINLINE static uint32 __PPO__FP_Gun() { return STRUCT_OFFSET(AForceDupeCharacter, FP_Gun); } \
 	FORCEINLINE static uint32 __PPO__FP_MuzzleLocation() { return STRUCT_OFFSET(AForceDupeCharacter, FP_MuzzleLocation); } \
@@ -69,27 +79,27 @@ public: \
 	FORCEINLINE static uint32 __PPO__L_MotionController() { return STRUCT_OFFSET(AForceDupeCharacter, L_MotionController); }
 
 
-#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_11_PROLOG
-#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_GENERATED_BODY_LEGACY \
+#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_13_PROLOG
+#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_SPARSE_DATA \
-	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_RPC_WRAPPERS \
-	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_INCLASS \
-	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_STANDARD_CONSTRUCTORS \
+	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
+	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_SPARSE_DATA \
+	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_RPC_WRAPPERS \
+	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_INCLASS \
+	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_GENERATED_BODY \
+#define ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_SPARSE_DATA \
-	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_INCLASS_NO_PURE_DECLS \
-	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_14_ENHANCED_CONSTRUCTORS \
+	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
+	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_SPARSE_DATA \
+	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_INCLASS_NO_PURE_DECLS \
+	ForceDupe_Source_ForceDupe_ForceDupeCharacter_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeForceDupe_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x3E32D051,
-				0xEE1754A6,
+				0xCCFB3E74,
+				0xAD42B322,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

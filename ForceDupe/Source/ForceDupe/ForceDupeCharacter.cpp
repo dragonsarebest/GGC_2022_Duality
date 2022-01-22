@@ -298,3 +298,21 @@ bool AForceDupeCharacter::EnableTouchscreenMovement(class UInputComponent* Playe
 	
 	return false;
 }
+
+void AForceDupeCharacter::PullTetherToPlayer()
+{
+	if (TeatheredObject != nullptr)
+	{
+		//FVector MyCharacter = GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
+		FVector dir = TeatheredObject->GetActorLocation() - GetActorLocation();
+
+		//FVector Impulse,
+		//FName BoneName,
+		//bool bVelChange
+		//UPrimitiveComponent::AddImpulse();
+	}
+}
+
+void AForceDupeCharacter::PullPlayerToTether()
+{
+}

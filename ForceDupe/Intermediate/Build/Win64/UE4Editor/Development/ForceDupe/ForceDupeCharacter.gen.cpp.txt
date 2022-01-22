@@ -8,4 +8,6 @@ D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovemen
 D:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\Josh\Documents\GGC_2022_Duality\ForceDupe\Source\ForceDupe\Tetherable.h
+D:\Josh\Documents\GGC_2022_Duality\ForceDupe\Intermediate\Build\Win64\UE4Editor\Inc\ForceDupe\Tetherable.generated.h
 D:\Josh\Documents\GGC_2022_Duality\ForceDupe\Intermediate\Build\Win64\UE4Editor\Inc\ForceDupe\ForceDupeCharacter.generated.h

@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Tetherable.h"
+
 #include "ForceDupeCharacter.generated.h"
 
 class UInputComponent;
@@ -45,8 +47,6 @@ class AForceDupeCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class UMotionControllerComponent* L_MotionController;
 
-	UPROPERTY(EditAnywhere)
-	class ATetherable* TeatheredObject;
 
 public:
 	AForceDupeCharacter();
@@ -82,6 +82,12 @@ public:
 	/** Whether to use motion controller location for aiming. */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	uint32 bUsingMotionControllers : 1;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tether")
+	ATetherable* TeatheredObject;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tether")
+	float MaxLength;
 
 protected:
 	
@@ -141,10 +147,10 @@ public:
 	/** Returns FirstPersonCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Tether")
+	UFUNCTION(BlueprintCallable, Category = "Tether")
 	void PullTetherToPlayer();
 
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Tether")
+	UFUNCTION(BlueprintCallable, Category = "Tether")
 	void PullPlayerToTether();
 };
 

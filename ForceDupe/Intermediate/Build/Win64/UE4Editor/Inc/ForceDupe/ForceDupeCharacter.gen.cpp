@@ -26,9 +26,76 @@ void EmptyLinkFunctionForGeneratedCodeForceDupeCharacter() {}
 	FORCEDUPE_API UClass* Z_Construct_UClass_AForceDupeProjectile_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
+	FORCEDUPE_API UClass* Z_Construct_UClass_ATetherable_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AForceDupeCharacter::execPullPlayerToTether)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->PullPlayerToTether();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AForceDupeCharacter::execPullTetherToPlayer)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->PullTetherToPlayer();
+		P_NATIVE_END;
+	}
 	void AForceDupeCharacter::StaticRegisterNativesAForceDupeCharacter()
 	{
+		UClass* Class = AForceDupeCharacter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "PullPlayerToTether", &AForceDupeCharacter::execPullPlayerToTether },
+			{ "PullTetherToPlayer", &AForceDupeCharacter::execPullTetherToPlayer },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AForceDupeCharacter_PullPlayerToTether_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AForceDupeCharacter_PullPlayerToTether_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Tether" },
+		{ "ModuleRelativePath", "ForceDupeCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AForceDupeCharacter_PullPlayerToTether_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AForceDupeCharacter, nullptr, "PullPlayerToTether", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AForceDupeCharacter_PullPlayerToTether_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AForceDupeCharacter_PullPlayerToTether_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AForceDupeCharacter_PullPlayerToTether()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AForceDupeCharacter_PullPlayerToTether_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AForceDupeCharacter_PullTetherToPlayer_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AForceDupeCharacter_PullTetherToPlayer_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Tether" },
+		{ "ModuleRelativePath", "ForceDupeCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AForceDupeCharacter_PullTetherToPlayer_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AForceDupeCharacter, nullptr, "PullTetherToPlayer", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AForceDupeCharacter_PullTetherToPlayer_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AForceDupeCharacter_PullTetherToPlayer_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AForceDupeCharacter_PullTetherToPlayer()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AForceDupeCharacter_PullTetherToPlayer_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AForceDupeCharacter_NoRegister()
 	{
@@ -37,6 +104,7 @@ void EmptyLinkFunctionForGeneratedCodeForceDupeCharacter() {}
 	struct Z_Construct_UClass_AForceDupeCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -101,6 +169,14 @@ void EmptyLinkFunctionForGeneratedCodeForceDupeCharacter() {}
 #endif
 		static void NewProp_bUsingMotionControllers_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bUsingMotionControllers;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TeatheredObject_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TeatheredObject;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxLength_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxLength;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -108,6 +184,10 @@ void EmptyLinkFunctionForGeneratedCodeForceDupeCharacter() {}
 	UObject* (*const Z_Construct_UClass_AForceDupeCharacter_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_ForceDupe,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AForceDupeCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AForceDupeCharacter_PullPlayerToTether, "PullPlayerToTether" }, // 4012896648
+		{ &Z_Construct_UFunction_AForceDupeCharacter_PullTetherToPlayer, "PullTetherToPlayer" }, // 3904310028
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AForceDupeCharacter_Statics::Class_MetaDataParams[] = {
@@ -266,6 +346,20 @@ void EmptyLinkFunctionForGeneratedCodeForceDupeCharacter() {}
 		((AForceDupeCharacter*)Obj)->bUsingMotionControllers = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_bUsingMotionControllers = { "bUsingMotionControllers", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(uint8), sizeof(AForceDupeCharacter), &Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_bUsingMotionControllers_SetBit, METADATA_PARAMS(Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_bUsingMotionControllers_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_bUsingMotionControllers_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_TeatheredObject_MetaData[] = {
+		{ "Category", "Tether" },
+		{ "ModuleRelativePath", "ForceDupeCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_TeatheredObject = { "TeatheredObject", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AForceDupeCharacter, TeatheredObject), Z_Construct_UClass_ATetherable_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_TeatheredObject_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_TeatheredObject_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_MaxLength_MetaData[] = {
+		{ "Category", "Tether" },
+		{ "ModuleRelativePath", "ForceDupeCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_MaxLength = { "MaxLength", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AForceDupeCharacter, MaxLength), METADATA_PARAMS(Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_MaxLength_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_MaxLength_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AForceDupeCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_Mesh1P,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_FP_Gun,
@@ -282,6 +376,8 @@ void EmptyLinkFunctionForGeneratedCodeForceDupeCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_FireSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_FireAnimation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_bUsingMotionControllers,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_TeatheredObject,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AForceDupeCharacter_Statics::NewProp_MaxLength,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AForceDupeCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AForceDupeCharacter>::IsAbstract,
@@ -291,11 +387,11 @@ void EmptyLinkFunctionForGeneratedCodeForceDupeCharacter() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AForceDupeCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AForceDupeCharacter_Statics::PropPointers),
 		0,
 		0x008000A4u,
@@ -310,7 +406,7 @@ void EmptyLinkFunctionForGeneratedCodeForceDupeCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AForceDupeCharacter, 2409577289);
+	IMPLEMENT_CLASS(AForceDupeCharacter, 3038407292);
 	template<> FORCEDUPE_API UClass* StaticClass<AForceDupeCharacter>()
 	{
 		return AForceDupeCharacter::StaticClass();
