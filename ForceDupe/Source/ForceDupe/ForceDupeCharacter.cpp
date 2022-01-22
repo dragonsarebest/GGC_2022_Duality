@@ -306,13 +306,25 @@ void AForceDupeCharacter::PullTetherToPlayer()
 		//FVector MyCharacter = GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
 		FVector dir = TeatheredObject->GetActorLocation() - GetActorLocation();
 
-		//FVector Impulse,
-		//FName BoneName,
-		//bool bVelChange
+		//FVector Impulse, //magnitude & dir
+		//FName BoneName, //If a SkeletalMeshComponent, name of body to apply impulse to. 'None' indicates root body. 
+		//bool bVelChange //If true, the Strength is taken as a change in velocity instead of an impulse (ie. mass will have no effect).
 		//UPrimitiveComponent::AddImpulse();
+
+		UStaticMeshComponent* SM = Cast<UStaticMeshComponent>(TeatheredObject->GetRootComponent());
+
+		SM->AddImpulse(dir, FName(TEXT("None")), true);
 	}
 }
 
 void AForceDupeCharacter::PullPlayerToTether()
 {
+	if (TeatheredObject != nullptr)
+	{
+		FVector dir = GetActorLocation() - TeatheredObject->GetActorLocation();
+
+		USkeletalMeshComponent* SM = Cast<USkeletalMeshComponent>(GetRootComponent());
+
+		SM->AddImpulse(dir, FName(TEXT("None")), true);
+	}
 }

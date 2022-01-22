@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/StaticMeshComponent.h"
+#incldue "Components/BoxComponent.h"
 #include "Tetherable.generated.h"
 
 UCLASS()
@@ -24,8 +26,8 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere)
-	class UStaticMeshComponent* My_Mesh;
+	UStaticMeshComponent* My_Mesh;
 	
 	UPROPERTY(EditAnywhere)
-	bool usingStaticMesh = false;
+	UBoxComponent* hitbox;
 };
