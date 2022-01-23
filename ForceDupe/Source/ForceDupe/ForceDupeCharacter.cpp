@@ -258,6 +258,8 @@ void AForceDupeCharacter::MoveForward(float Value)
 {
 	if (Value != 0.0f)
 	{
+		//UCapsuleComponent* SM = Cast<UCapsuleComponent>(GetRootComponent());
+		//SM->AddForce(GetActorForwardVector() * Value * 100, FName(TEXT("None")), true);
 		// add movement in that direction
 		AddMovementInput(GetActorForwardVector(), Value);
 	}
@@ -268,6 +270,8 @@ void AForceDupeCharacter::MoveRight(float Value)
 	if (Value != 0.0f)
 	{
 		// add movement in that direction
+		//UCapsuleComponent* SM = Cast<UCapsuleComponent>(GetRootComponent());
+		//SM->AddForce(GetActorRightVector() * Value * 100, FName(TEXT("None")), true);
 		AddMovementInput(GetActorRightVector(), Value);
 	}
 }
@@ -321,6 +325,9 @@ void AForceDupeCharacter::PullPlayerToTether()
 {
 	if (TeatheredObject != nullptr)
 	{
+		//#include "Components/SceneComponent.h" 
+		//GetComponentLocation()
+
 		FVector dir = GetActorLocation() - TeatheredObject->GetActorLocation();
 
 		UCapsuleComponent* SM = Cast<UCapsuleComponent>(GetRootComponent());
