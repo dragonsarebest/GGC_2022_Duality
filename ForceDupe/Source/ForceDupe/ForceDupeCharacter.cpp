@@ -9,6 +9,7 @@
 #include "GameFramework/InputSettings.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Kismet/GameplayStatics.h"
+#include "Kismet/KismetMathLibrary.h"
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 
@@ -330,13 +331,24 @@ void AForceDupeCharacter::PullPlayerToTether()
 
 		FVector dir = GetActorLocation() - TeatheredObject->GetActorLocation();
 
-		UCapsuleComponent* SM = Cast<UCapsuleComponent>(GetRootComponent());
-
+		//UCapsuleComponent* SM = Cast<UCapsuleComponent>(GetRootComponent());
 		//SM->AddImpulse(dir, FName(TEXT("None")), true);
-		SM->AddForce(dir * 2000, FName(TEXT("None")), true);
+		//SM->AddForce(dir * 2000, FName(TEXT("None")), true);
 
 		//AddMovementInput(dir, 250);
+		// 
 		//GetActorForwardVector
 		//GetActorRightVector
+
+		//cos(theta) = forward dot dir / magnitude of forward times magnirude of dir
+		//cos(theta) = forward mag / dir mag = amount forward
+		//cos(beta) = right mag / dir mag = amount right
+
+		//FVector forward = GetActorForwardVector();
+
+		//forward.CosineAngle2D(dir);
+		//float str = 1000.0f;
+		//MoveForward(UKismetMathLibrary::Cos(GetActorForwardVector().CosineAngle2D(dir))* dir.Size() * str);
+		//MoveRight(UKismetMathLibrary::Cos(GetActorRightVector().CosineAngle2D(dir)) * dir.Size() * str);
 	}
 }
