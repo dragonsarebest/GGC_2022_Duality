@@ -323,8 +323,9 @@ void AForceDupeCharacter::PullPlayerToTether()
 	{
 		FVector dir = GetActorLocation() - TeatheredObject->GetActorLocation();
 
-		USkeletalMeshComponent* SM = Cast<USkeletalMeshComponent>(GetRootComponent());
+		UCapsuleComponent* SM = Cast<UCapsuleComponent>(GetRootComponent());
 
 		SM->AddImpulse(dir, FName(TEXT("None")), true);
+		//SM->AddForce(dir, FName(TEXT("None")), true);
 	}
 }

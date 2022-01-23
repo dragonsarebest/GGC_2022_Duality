@@ -12,7 +12,7 @@ ATetherable::ATetherable()
 	My_Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("My_Mesh"));
 	RootComponent = My_Mesh;
 
-	hitbox = CreateDefaultSubobject<UBoxComponent>(TEXT("hitbox"));
+	//hitbox = CreateDefaultSubobject<UBoxComponent>(TEXT("hitbox"));
 }
 
 // Called when the game starts or when spawned

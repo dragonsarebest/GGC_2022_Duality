@@ -4,8 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+//#incldue "Components/BoxComponent.h"
 #include "Components/StaticMeshComponent.h"
-#incldue "Components/BoxComponent.h"
 #include "Tetherable.generated.h"
 
 UCLASS()
@@ -28,6 +28,6 @@ public:
 	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* My_Mesh;
 	
-	UPROPERTY(EditAnywhere)
-	UBoxComponent* hitbox;
+	//UPROPERTY(EditAnywhere)
+	//class UBoxComponent* hitbox;
 };

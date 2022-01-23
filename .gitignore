@@ -73,3 +73,27 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 *.rsp
+*.bin
+*.bin
+*.pdb
+*.pdb
+
+*.log
+
+*.response
+
+*.uhtmanifest
+
+*.uhtpath
+
+*.state
+
+*.dat
+
+*.res
+
+ForceDupe/Intermediate/Build/Win64/UE4Editor/Inc/ForceDupe/Timestamp
+
+ForceDupe/Intermediate/Build/Win64/UE4Editor/Development/ForceDupe/
+
+ForceDupe/Intermediate/Build/Win64/ForceDupeEditor/Development/Engine/
