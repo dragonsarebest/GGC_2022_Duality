@@ -332,7 +332,11 @@ void AForceDupeCharacter::PullPlayerToTether()
 
 		UCapsuleComponent* SM = Cast<UCapsuleComponent>(GetRootComponent());
 
-		SM->AddImpulse(dir, FName(TEXT("None")), true);
-		//SM->AddForce(dir, FName(TEXT("None")), true);
+		//SM->AddImpulse(dir, FName(TEXT("None")), true);
+		SM->AddForce(dir * 2000, FName(TEXT("None")), true);
+
+		//AddMovementInput(dir, 250);
+		//GetActorForwardVector
+		//GetActorRightVector
 	}
 }
